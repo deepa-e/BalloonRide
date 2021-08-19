@@ -15,7 +15,7 @@ function setup() {
   database=firebase.database();
   createCanvas(1500,700);
   console.log(database);
-  balloon=createSprite(500,300,150,150);
+  balloon=createSprite(60,60,150,150);
   balloon.addAnimation("hotAirBalloon",balloonImage1);
   balloon.scale=0.5;
 
